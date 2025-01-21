@@ -11,20 +11,20 @@ const Services = () => {
                 I am a frontend developer from Andhra, India with over 3 years of experience in
                 multiple copanies like Lumidad, Freelancing, MediCardia.
             </p>
-            <div className='grid grid-cols-4 gap-6 my-10'>
-                {serviceData.map(({ icon, title, description, link }, index) => {
-                    <div key={index}>
+            <div className='grid grid-cols-auto gap-6 my-10'>
+                {serviceData.map(({ icon, title, description, link }, index) => (
+                    <div key={index} className='border order-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover: bg-lightHover hover:-translate-y-1 duration-500'>
                         <Image src={icon} alt='icon' className='w-10' />
                         <h3 className='text-lg my-4 text-gray-700'>{title}</h3>
-                        <p className='text-sm text-gray-6000 leading-5'>
+                        <p className='text-sm text-gray-600 leading-5'>
                             {description}
                         </p>
-                        <a href={link}>
+                        <a href={link} className='flex items-center gap-2 text-sm mt-5'>
                             Read More
-                            <Image src={assets.right_arrow} alt="my services right arrow"/>
+                            <Image src={assets.right_arrow} alt="my services right arrow" />
                         </a>
                     </div>
-                })}
+                ))}
             </div>
         </div>
     )

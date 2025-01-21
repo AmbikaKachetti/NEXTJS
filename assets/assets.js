@@ -19,7 +19,9 @@ import figma from "./figma.png";
 import git from "./git.png";
 import mongodb from "./mongodb.png";
 import right_arrow_white from "./right-arrow-white.png";
-import logo from "./logo.png";
+// import logo from "./logo.png";
+import logo from "./my-logo-whitescreen.png";
+
 import logo_dark from "./logo_dark.png";
 import mail_icon from "./mail_icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
@@ -101,17 +103,17 @@ export const workData = [
   {
     title: "Geo based app",
     description: "Mobile App",
-    bgImage: "/work-2.png",
+    bgImage: "/work-2.jpeg",
   },
   {
     title: "Photography site",
     description: "Web Design",
-    bgImage: "/work-3.png",
+    bgImage: "/work-3.jpeg",
   },
   {
     title: "UI/UX designing",
     description: "UI/UX Design",
-    bgImage: "/work-4.png",
+    bgImage: "/work-4.jpeg",
   },
 ];
 
