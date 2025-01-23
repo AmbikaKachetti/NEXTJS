@@ -98,22 +98,22 @@ export const workData = [
   {
     title: "Frontend project",
     description: "Web Design",
-    bgImage: "./public/images/work-1.png",
+    bgImage: "/work-1.png",
   },
   {
     title: "Geo based app",
     description: "Mobile App",
-    bgImage: "./public/images/work-2.png",
+    bgImage: "/work-2.png",
   },
   {
     title: "Photography site",
     description: "Web Design",
-    bgImage: "./public/images/work-3.png",
+    bgImage: "/work-3.png",
   },
   {
     title: "UI/UX designing",
     description: "UI/UX Design",
-    bgImage: "./public/images/work-4.png",
+    bgImage: "/work-4.png",
   },
 ];
 
