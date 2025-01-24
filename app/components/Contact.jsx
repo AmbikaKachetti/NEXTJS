@@ -28,7 +28,7 @@ const Contact = () => {
     }
   };
   return (
-    <div id='contact' className='w-full px-[12%] py-10 scroll-mt-20 bg-no-repeat bg-center bg-[length:90%_auto]'>
+    <div id='contact' className='bg-gradient-to-r from-green-300 to-yellow-400 w-full px-[12%] py-10 scroll-mt-20 bg-no-repeat bg-center bg-[length:90%_auto]'>
       <h4 className='text-center mb-2 text-lg font-Ovo'>Connect with me</h4>
       <h2 className='text-center text-5xl font-Ovo'>Get in touch</h2>
       <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
@@ -52,12 +52,20 @@ const Contact = () => {
             className='flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white'
           />
         </div>
-        <textarea name='message' className='w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6' rows='6' name="" id="" placeholder='Enter your message' required></textarea>
+        <textarea name='message'
+          className='w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6'
+          rows='6'
+          id=""
+          placeholder='Enter your message'
+          required>
+        </textarea>
         <button
           className='py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500'
           type='submit'>Submit Now
-          <Image src={assets.right_arrow_white} alt='Contact right arrow icon'
-            className='w-4' />
+          <Image src={assets.right_arrow_white}
+            alt='Contact right arrow icon'
+            className='w-4'
+          />
         </button>
         <p className='mt-4'>{result}</p>
       </form>
