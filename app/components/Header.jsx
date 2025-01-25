@@ -48,7 +48,9 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div className="bg-gradient-to-r from-green-300 via-yellow-400 to-green-300 text-black p-6 md:p-12 rounded-lg shadow-lg">
+        // <div className="bg-gradient-to-r from-green-300 via-yellow-400 to-green-300 text-black p-6 md:p-12 rounded-lg shadow-lg">
+        <div className="bg-white text-black p-6 md:p-12 rounded-lg shadow-lg">
+
             <div className="flex justify-center mb-6">
                 <Image
                     src={assets.profile_img}
