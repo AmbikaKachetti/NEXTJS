@@ -4,7 +4,9 @@ import { assets, infoList, toolsData } from '@/assets/assets'
 
 const About = () => {
     return (
-        <div id='about' className='bg-gradient-to-l from-green-200 to-green-300 w-full px-[12%] py-10 scroll-mt-20'>
+        // <div id='about' className='bg-gradient-to-l from-green-200 to-green-300 w-full px-[12%] py-10 scroll-mt-20'>
+        
+        <div id='about' className='text-black w-full px-[12%] py-10 scroll-mt-20'>
             <h4 className='text-center mb-2 text-lg font-Ovo'>Introduction</h4>
             <h2 className='text-center text-5xl font-Ovo'>About Me</h2>
             <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>

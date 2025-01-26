@@ -29,9 +29,9 @@ const Navbar = () => {
 
             <nav className={`w-full fixed px-5 lg:px-8 xl:px[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm":""}`}>
             <a href="#top">
-                <Image src={assets.logo} alt='logo' className='w-28 mr-14 cursor-pointer object-cover scale-110 transition-transform duration-500 hover:scale-125' />
+                <Image src={assets.logo} alt='logo' className='w-28 ml-20 cursor-pointer object-cover scale-110 transition-transform duration-500 hover:scale-125' />
             </a>
-            <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-1 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"} `}>
+            <ul className={`text-black hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-1 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"} `}>
                 <li><a className='font-Ovo' href="#top">Home</a></li> 
                 <li><a className='font-Ovo' href="#about">About me</a></li>
                 <li><a className='font-Ovo' href="#services">Services</a></li>
@@ -39,7 +39,7 @@ const Navbar = () => {
                 <li><a className='font-Ovo' href="#contact">Contact me</a></li>
             </ul>
 
-            <div className='flex items-center gap-4'>
+            <div className='text-black flex items-center gap-4'>
                 <button>
                     <Image src={assets.moon_icon} alt='' className='w-6' />
                 </button>
