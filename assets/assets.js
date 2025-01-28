@@ -45,8 +45,8 @@ import profile_img from "./girl3.png";
 
 import download_icon from "./download-icon.png";
 // import hand_icon from './hand-icon.png';
-import hand_icon from "./wave-hand.png";
-// import hand_icon from './wave.png';
+// import hand_icon from "./wave-hand.png";
+import hand_icon from './wave.png';
 
 import header_bg_color from "./header-bg-color.png";
 import moon_icon from "./moon_icon.png";

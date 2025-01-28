@@ -26,7 +26,6 @@ const Navbar = () => {
             <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
                 <Image src={assets.header_bg_color} alt='' className='w-full' />
             </div>
-
             <nav className={`w-full fixed px-5 lg:px-8 xl:px[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm":""}`}>
             <a href="#top">
                 <Image src={assets.logo} alt='logo' className='w-28 ml-20 cursor-pointer object-cover scale-110 transition-transform duration-500 hover:scale-125' />
@@ -38,8 +37,7 @@ const Navbar = () => {
                 <li><a className='font-Ovo' href="#work">My Work</a></li>
                 <li><a className='font-Ovo' href="#contact">Contact me</a></li>
             </ul>
-
-            <div className='text-black flex items-center gap-4'>
+            <div className='flex items-center gap-4'>
                 <button>
                     <Image src={assets.moon_icon} alt='' className='w-6' />
                 </button>
@@ -63,8 +61,6 @@ const Navbar = () => {
     </>
   )
 }
-
-
 
 export default Navbar
 
