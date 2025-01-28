@@ -19,7 +19,6 @@ import edu_icon_dark from "./edu-icon-dark.png";
 // import project_icon from "./project-icon.png";
 import project_icon from "./idea.png";
 
-
 import project_icon_dark from "./project-icon-dark.png";
 import vscode from "./vscode.png";
 import firebase from "./firebase.png";
@@ -33,8 +32,9 @@ import react from "./physics.png";
 import right_arrow_white from "./right-arrow-white.png";
 // import logo from "./logo.png";
 import logo from "./my-logo-whitescreen.png";
+import logo_dark from "./my-logo-for-darkscreen.png";
 
-import logo_dark from "./logo_dark.png";
+// import logo_dark from "./logo_dark.png";
 import mail_icon from "./mail_icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
 
