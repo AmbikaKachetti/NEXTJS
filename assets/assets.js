@@ -44,9 +44,9 @@ import profile_img from "./girl3.png";
 // import profile_img from "./without-my-pic.png";
 
 import download_icon from "./download-icon.png";
-// import hand_icon from './hand-icon.png';
-// import hand_icon from "./wave-hand.png";
-import hand_icon from './wave.png';
+import hand_icon_dark from './hand-icon.png';
+import hand_icon from "./wave-hand.png";
+// import hand_icon from './wave.png';
 
 import header_bg_color from "./header-bg-color.png";
 import moon_icon from "./moon_icon.png";
@@ -95,6 +95,7 @@ export const assets = {
   profile_img,
   download_icon,
   hand_icon,
+  hand_icon_dark,
   header_bg_color,
   moon_icon,
   sun_icon,

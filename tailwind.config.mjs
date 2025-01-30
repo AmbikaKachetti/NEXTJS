@@ -31,8 +31,8 @@ module.exports = {
     extend: {
       colors: {
         lightHover: '#fcf4ff',
-        darkHover: '#2a004a',
-        darkTheme: '#11001F',
+        darkHover: '#57A6A1',
+        darkTheme: '#082032',
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],
@@ -49,7 +49,7 @@ module.exports = {
       },
       boxShadow:{
         'black': '4px 4px 0 #000',
-        'white': '4px 4px 0 #fff',
+        'white': '4px 4px 0 #696969',
       },
       gridTemplateColumns:{
         'auto': 'repeat(auto-fit, minmax(200px, 1fr))'

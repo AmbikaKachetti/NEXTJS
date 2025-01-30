@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { assets, infoList, toolsData } from '@/assets/assets'
 
-const About = () => {
+const About = ({isDarkMode}) => {
     return (
         // <div id='about' className='bg-gradient-to-l from-green-200 to-green-300 w-full px-[12%] py-10 scroll-mt-20'>
         
@@ -22,14 +22,14 @@ const About = () => {
                     <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                         {infoList.map(({ icon, iconDark, title, description }, index) => (
                             <li key={index}
-                                className='border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer flex items-center flex-col justify-center hover:bg-light hover:-translate-y-1 duration-500 hover:shadow-black'>
+                                className='border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer flex items-center flex-col justify-center hover:bg-light hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'>
                                 <Image src={icon} alt='icon' className='w-12 mt-3' />
-                                <h3 className='font-semibold text-gray-700'>{title}</h3>
-                                <p className='text-gray-600 text-sm text-center'>{description}</p>
+                                <h3 className='font-semibold text-gray-700 dark:text-white'>{title}</h3>
+                                <p className='text-gray-600 text-sm text-center dark:text-white/80'>{description}</p>
                             </li>
                         ))}
                     </ul>
-                    <h4 className='my-6 text-gray-700 font-Ovo'>Tools I use</h4>
+                    <h4 className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tools I use</h4>
                     <ul className='flex flex-items-center gap-3 sm:gap-5'>
                         {toolsData.map((tool, index) => (
                             <li key={index}
