@@ -31,8 +31,9 @@ module.exports = {
     extend: {
       colors: {
         lightHover: '#fcf4ff',
-        darkHover: '#57A6A1',
-        darkTheme: '#082032',
+        darkHover: '#86a31d',
+        // darkHover: '#f7ac06',
+        darkTheme: '#070739',
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif"],

@@ -13,7 +13,7 @@ const Work = () => {
                 Welcome to my web development portfolio Explore a collection of projects
                 showcasing my experience in frnot-end development.
             </p>
-            <div className='grid grid-cols-auto my-10 gap-5'>
+            <div className='grid grid-cols-auto my-10 gap-5 dark:text-black'>
                 {workData.map((project, index) => (
                     <div key={index}    
                         style={{ backgroundImage: `url(${project.bgImage})` }}

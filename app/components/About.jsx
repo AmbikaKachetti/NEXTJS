@@ -22,7 +22,7 @@ const About = ({isDarkMode}) => {
                     <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                         {infoList.map(({ icon, iconDark, title, description }, index) => (
                             <li key={index}
-                                className='border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer flex items-center flex-col justify-center hover:bg-light hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50'>
+                                className='border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer flex items-center flex-col justify-center hover:bg-light hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover'>
                                 <Image src={icon} alt='icon' className='w-12 mt-3' />
                                 <h3 className='font-semibold text-gray-700 dark:text-white'>{title}</h3>
                                 <p className='text-gray-600 text-sm text-center dark:text-white/80'>{description}</p>
