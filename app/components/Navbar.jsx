@@ -31,11 +31,11 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
                 <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt='logo' className='w-28 ml-20 cursor-pointer object-cover scale-110 transition-transform duration-500 hover:scale-125' />
             </a>
             <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-1 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark:border dark: border-white/50 dark:bg-transparent"} `}>
-                <li><a className='font-Ovo' href="#top">Home</a></li> 
-                <li><a className='font-Ovo' href="#about">About me</a></li>
-                <li><a className='font-Ovo' href="#services">Services</a></li>
-                <li><a className='font-Ovo' href="#work">My Work</a></li>
-                <li><a className='font-Ovo' href="#contact">Contact me</a></li>
+                <li className='dark:hover:text-yellow-300'><a className='font-Ovo' href="#top">Home</a></li> 
+                <li className='dark:hover:text-yellow-300'><a className='font-Ovo' href="#about">About me</a></li>
+                <li className='dark:hover:text-yellow-300'><a className='font-Ovo' href="#services">Services</a></li>
+                <li className='dark:hover:text-yellow-300'><a className='font-Ovo' href="#work">My Work</a></li>
+                {/* <li className='dark:hover:text-yellow-300'><a className='font-Ovo' href="#contact">Contact me</a></li> */}
             </ul>
             <div className='flex items-center gap-4'>
                 <button onClick={()=>setIsDarkMode(prev => !prev)}>
