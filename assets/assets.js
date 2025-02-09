@@ -21,7 +21,7 @@ import project_icon from "./idea.png";
 
 import project_icon_dark from "./project-icon-dark.png";
 import vscode from "./vscode.png";
-import firebase from "./firebase.png";
+// import firebase from "./firebase.png";
 import figma from "./figma.png";
 import git from "./git.png";
 import jira from "./jira.png";
@@ -88,7 +88,7 @@ export const assets = {
   project_icon,
   project_icon_dark,
   vscode,
-  firebase,
+  // firebase,
   figma,
   git,
   jira,
